@@ -1,4 +1,25 @@
 site_name: Krigssvinen
 site_url: https://mydomain.org/mysite
+repo_url: https://github.com/TurbulentQuasarPhenotype/krigssvinen
+repo_name: Krigssvinen
 theme:
   name: material
+  icon:
+    logo: material/pig
+  palette:
+
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+  features:
+    - navigation.sections
+    - navigation.indexes
